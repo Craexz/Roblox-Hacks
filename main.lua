@@ -38,7 +38,7 @@ end
 -- Jailbreak
 if gameid == 606849621 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal"))()
 end
 
 -- Tower Of Hell
@@ -48,6 +48,6 @@ end
 
 -- Phantom Forces
 if gameid == 292439477 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-Evolution/Main/main/Loader.lua", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Project-Evolution/Main/main/Loader.lua"))()
 
 ---------------------------------------------------------------------------------
