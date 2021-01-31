@@ -49,5 +49,6 @@ end
 -- Phantom Forces
 if gameid == 292439477 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/EHUBWINNING/Phantom-Forces/main/Script.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptRUs/Banana/main/PhantomForcesBanana.lua"))()
 end
 
