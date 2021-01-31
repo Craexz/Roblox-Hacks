@@ -3,6 +3,7 @@ local gameid = game.PlaceId
 -- Project Lazarus
 if gameid == 443406476 then
 	loadstring(game:HttpGet("https://pastebin.com/raw/ty1aYq0u"))();
+  loadstring(game:HttpGet("https://pastebin.com/raw/UHvG9BXn"))();
 end
 
 -- Big Paintball
