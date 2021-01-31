@@ -50,4 +50,4 @@ end
 if gameid == 292439477 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/EHUBWINNING/SYNAPSE/main/V2.lua"))()
 end
-
+-- phantom really
