@@ -48,6 +48,6 @@ end
 
 -- Phantom Forces
 if gameid == 292439477 then
-  loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 end
 ---------------------------------------------------------------------------------
