@@ -50,4 +50,9 @@ end
 if gameid == 292439477 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 end
+
+-- Adopt Me
+if gameid == 920587237 then
+  loadstring(game:HttpGet("https://pastebin.com/raw/4UbgSxWw", true))()
+end
 ---------------------------------------------------------------------------------
