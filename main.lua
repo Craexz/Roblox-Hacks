@@ -40,3 +40,7 @@ if gameid == 606849621 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
 end
 
+-- Tower Of Hell
+if gameid == 1962086868 then
+  loadstring(game:HttpGet("https://pastebin.com/raw/0MjR9qD1"))()
+end
