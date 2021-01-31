@@ -48,6 +48,6 @@ end
 
 -- Phantom Forces
 if gameid == 292439477 then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/EHUBWINNING/SYNAPSE/main/V2.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/EHUBWINNING/Phantom-Forces/main/Script.lua"))()
 end
 
