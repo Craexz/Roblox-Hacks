@@ -53,6 +53,6 @@ end
 
 -- Adopt Me
 if gameid == 920587237 then
-  loadstring(game:HttpGet("https://pastebin.com/raw/4UbgSxWw", true))()
+  loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
 end
 ---------------------------------------------------------------------------------
