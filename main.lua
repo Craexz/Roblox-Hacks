@@ -30,3 +30,12 @@ if gameid == 985510407 then
 	 loadstring(game:HttpGet("https://pastebin.com/raw/r4pLKeK8"))()
 end
 
+-- Sharkbite
+if gameid == 734159876 then
+   loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
+end
+
+-- Jailbreak
+if gameid == 606849621 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
+end
