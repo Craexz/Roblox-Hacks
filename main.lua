@@ -38,9 +38,11 @@ end
 -- Jailbreak
 if gameid == 606849621 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal", true))()
 end
 
 -- Tower Of Hell
 if gameid == 1962086868 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 end
+
