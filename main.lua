@@ -46,3 +46,8 @@ if gameid == 1962086868 then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 end
 
+-- Phantom Forces
+if gameid == 292439477 then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Mikehales7/EHUB/master/Roblox"))()
+end
+
