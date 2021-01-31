@@ -42,5 +42,5 @@ end
 
 -- Tower Of Hell
 if gameid == 1962086868 then
-  loadstring(game:HttpGet("https://pastebin.com/raw/0MjR9qD1"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 end
