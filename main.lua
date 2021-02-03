@@ -9,12 +9,16 @@ local Bottombar = Instance.new("TextButton")
 local Title = Instance.new("TextLabel")
 local Loadingbar = Instance.new("TextButton")
 local Topbar = Instance.new("TextButton")
-local gamedetection = Instance.new("TextLabel")
+local BigPaintball = Instance.new("TextButton")
+local ProjectLazarus = Instance.new("TextButton")
+local MyRestaraunt = Instance.new("TextButton")
+local PrisonLife = Instance.new("TextButton")
+local Arsenal = Instance.new("TextButton")
 
 --Properties:
 
 CraezHub.Name = "CraezHub"
-CraezHub.Parent = game.StarterGui
+CraezHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 CraezHubFrame.Name = "CraezHubFrame"
 CraezHubFrame.Parent = CraezHub
@@ -73,23 +77,68 @@ Topbar.Text = ""
 Topbar.TextColor3 = Color3.fromRGB(0, 0, 0)
 Topbar.TextSize = 14.000
 
-gamedetection.Name = "gamedetection"
-gamedetection.Parent = CraezHubFrame
-gamedetection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-gamedetection.BackgroundTransparency = 1.000
-gamedetection.BorderColor3 = Color3.fromRGB(82, 84, 75)
-gamedetection.Position = UDim2.new(0.258581221, 0, 0.399224818, 0)
-gamedetection.Size = UDim2.new(0, 200, 0, 50)
-gamedetection.Font = Enum.Font.SciFi
-gamedetection.Text = ""
-gamedetection.TextColor3 = Color3.fromRGB(0, 0, 0)
-gamedetection.TextScaled = true
-gamedetection.TextSize = 14.000
-gamedetection.TextWrapped = true
+BigPaintball.Name = "BigPaintball"
+BigPaintball.Parent = CraezHubFrame
+BigPaintball.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BigPaintball.Position = UDim2.new(0.782974124, 0, 0.344438046, 0)
+BigPaintball.Size = UDim2.new(0, 69, 0, 30)
+BigPaintball.Font = Enum.Font.SourceSans
+BigPaintball.Text = "Big Paintball"
+BigPaintball.TextColor3 = Color3.fromRGB(0, 0, 0)
+BigPaintball.TextScaled = true
+BigPaintball.TextSize = 14.000
+BigPaintball.TextWrapped = true
+
+ProjectLazarus.Name = "ProjectLazarus"
+ProjectLazarus.Parent = CraezHubFrame
+ProjectLazarus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ProjectLazarus.Position = UDim2.new(0.0529970676, 0, 0.344438046, 0)
+ProjectLazarus.Size = UDim2.new(0, 69, 0, 30)
+ProjectLazarus.Font = Enum.Font.SourceSans
+ProjectLazarus.Text = "Project Lazarus"
+ProjectLazarus.TextColor3 = Color3.fromRGB(0, 0, 0)
+ProjectLazarus.TextScaled = true
+ProjectLazarus.TextSize = 14.000
+ProjectLazarus.TextWrapped = true
+
+MyRestaraunt.Name = "MyRestaraunt"
+MyRestaraunt.Parent = CraezHubFrame
+MyRestaraunt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MyRestaraunt.Position = UDim2.new(0.284118354, 0, 0.344438046, 0)
+MyRestaraunt.Size = UDim2.new(0, 69, 0, 30)
+MyRestaraunt.Font = Enum.Font.SourceSans
+MyRestaraunt.Text = "My Restaraunt"
+MyRestaraunt.TextColor3 = Color3.fromRGB(0, 0, 0)
+MyRestaraunt.TextScaled = true
+MyRestaraunt.TextSize = 14.000
+MyRestaraunt.TextWrapped = true
+
+PrisonLife.Name = "PrisonLife"
+PrisonLife.Parent = CraezHubFrame
+PrisonLife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PrisonLife.Position = UDim2.new(0.551852882, 0, 0.344438046, 0)
+PrisonLife.Size = UDim2.new(0, 69, 0, 30)
+PrisonLife.Font = Enum.Font.SourceSans
+PrisonLife.Text = "Prison Life"
+PrisonLife.TextColor3 = Color3.fromRGB(0, 0, 0)
+PrisonLife.TextScaled = true
+PrisonLife.TextSize = 14.000
+PrisonLife.TextWrapped = true
+
+Arsenal.Name = "Arsenal"
+Arsenal.Parent = CraezHubFrame
+Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Arsenal.Position = UDim2.new(0.782974184, 0, 0.561492324, 0)
+Arsenal.Size = UDim2.new(0, 69, 0, 30)
+Arsenal.Font = Enum.Font.SourceSans
+Arsenal.Text = "Arsenal"
+Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Arsenal.TextSize = 19.000
+Arsenal.TextWrapped = true
 
 -- Scripts:
 
-local function UIACG_fake_script() -- Loadingbar.Script 
+local function DVSPDX_fake_script() -- Loadingbar.Script 
 	local script = Instance.new('Script', Loadingbar)
 
 	local percent = 0
@@ -99,107 +148,76 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		wait(.005)
 	end
 	
+	script.Parent.Visible = false
+	game.StarterGui.CraezHub.CraezHubFrame.ProjectLazarus.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.BigPaintball.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.MyRestaraunt.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.PrisonLife.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.Arsenal.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.WeightLiftingSimulator2.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.SharkBite.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.Jailbreak.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.TowerOfHell.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.PhantomForces.Visible = true
+	game.StarterGui.CraezHub.CraezHubFrame.AdoptMe.Visible = true
+	
 	if percent == 100 then
-		script.Parent.Visible = false
-		local displaygame = game.StarterGui.CraezHub.CraezHubFrame.gamedetection
-		local gameid = game.PlaceId
-    print(gameid)
-		detectedgame = ""
 		-- Project Lazarus
-		if gameid == 443406476 then
-			local detectedgame = 'Project Lazarus'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.ProjectLazarus.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://pastebin.com/raw/H64HYzH0"))();
-		end
+		end)
 	
 		-- Big Paintball
-		if gameid == 3527629287 then
-			local detectedgame = 'Big Paintball'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.BigPaintball.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
-		end
+		end)
 	
 		-- My Restaraunt
-		if gameid == 4490140733 then
-			local detectedgame = 'My Restaraunt'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.MyRestaraunt.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://pastebin.com/raw/Csr2LzA3"))();
-		end
+		end)
 	
 		-- Prison Life
-		if gameid == 155615604 then
-			local detectedgame = 'Prison Life'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.PrisonLife.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://pastebin.com/raw/PR79FuHb"))();
-		end
+		end)
 	
 		-- Arsenal
-		if gameid == 286090429 then
-			local detectedgame = 'Arsenal'  
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.Arsenal.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))();
-		end
+		end)
 	
 		-- Weight Lifting Simulator II
-		if gameid == 985510407 then
-			local detectedgame = 'Weight Lifting Simulator II'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.WeightLiftingSimulator2.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://pastebin.com/raw/r4pLKeK8"))()
-		end
+		end)
 	
 		-- Sharkbite
-		if gameid == 734159876 then
-			local detectedgame = 'Sharkbite'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.SharkBite.MouseButton1Click:Connect(function()
 			loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
-		end
+		end)
 	
 		-- Jailbreak
-		if gameid == 606849621 then
-			local detectedgame = 'Jailbreak'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.Jailbreak.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal"))()
-		end
+		end)
 	
 		-- Tower Of Hell
-		if gameid == 1962086868 then
-			local detectedgame = 'Tower Of Hell'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.TowerOfHell.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
-		end
+		end)
 	
 		-- Phantom Forces
-		if gameid == 292439477 then
-			local detectedgame = 'Phantom Forces'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.PhantomForces.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
-		end
+		end)
 	
 		-- Adopt Me
-		if gameid == 920587237 then
-			local detectedgame = 'Adopt Me'
-			displaygame.Text = "GAME DETECTED >> "..detectedgame
-      wait(1)
+		game.StarterGui.CraezHub.CraezHubFrame.AdoptMe.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
-		end
-		
-		
-		local displaygame = game.StarterGui.CraezHub.CraezHubFrame.gamedetection
-		displaygame.Text = ("Game not supported")
-		
-		print(detectedgame)
+		end)
 	end
 	
 end
-coroutine.wrap(UIACG_fake_script)()
+coroutine.wrap(DVSPDX_fake_script)()
