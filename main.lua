@@ -26,6 +26,7 @@ CraezHub.Name = "CraezHub"
 CraezHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 CraezHubFrame.Name = "CraezHubFrame"
+CraezHubFrame.ZIndex = 10
 CraezHubFrame.Parent = CraezHub
 CraezHubFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CraezHubFrame.Position = UDim2.new(0.367272735, 0, 0.261299431, 0)
