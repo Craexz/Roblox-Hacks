@@ -211,7 +211,7 @@ AdoptMe.TextWrapped = true
 local function FQAIV_fake_script() -- CraezHubFrame.mainscript 
 	local script = Instance.new('Script', CraezHubFrame)
   print("Script is running and ready for input")
-	local gamebuttons = game.Players.LocalPlayer:WaitForChild("PlayerGui").CraezHub
+	local gamebuttons = game.Players.LocalPlayer:WaitForChild("PlayerGui").CraezHub.CraezHubFrame
 	-- Project Lazarus
 	gamebuttons.ProjectLazarus.MouseButton1Down:Connect(function()
 		print("Starting script for Project Lazarus")
