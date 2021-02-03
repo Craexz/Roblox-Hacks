@@ -23,7 +23,7 @@ local AdoptMe = Instance.new("TextButton")
 --Properties:
 
 CraezHub.Name = "CraezHub"
-CraezHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+CraezHub.Parent = game.StarterGui
 
 CraezHubFrame.Name = "CraezHubFrame"
 CraezHubFrame.Parent = CraezHub
