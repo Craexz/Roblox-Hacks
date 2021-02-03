@@ -109,6 +109,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 443406476 then
 			local detectedgame = 'Project Lazarus'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://pastebin.com/raw/H64HYzH0"))();
 		end
 	
@@ -116,6 +117,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 3527629287 then
 			local detectedgame = 'Big Paintball'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
 		end
 	
@@ -123,6 +125,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 4490140733 then
 			local detectedgame = 'My Restaraunt'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://pastebin.com/raw/Csr2LzA3"))();
 		end
 	
@@ -130,6 +133,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 155615604 then
 			local detectedgame = 'Prison Life'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://pastebin.com/raw/PR79FuHb"))();
 		end
 	
@@ -137,6 +141,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 286090429 then
 			local detectedgame = 'Arsenal'  
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))();
 		end
 	
@@ -144,6 +149,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 985510407 then
 			local detectedgame = 'Weight Lifting Simulator II'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://pastebin.com/raw/r4pLKeK8"))()
 		end
 	
@@ -151,6 +157,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 734159876 then
 			local detectedgame = 'Sharkbite'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
 		end
 	
@@ -158,6 +165,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 606849621 then
 			local detectedgame = 'Jailbreak'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal"))()
 		end
@@ -166,6 +174,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 1962086868 then
 			local detectedgame = 'Tower Of Hell'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
 		end
 	
@@ -173,6 +182,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 292439477 then
 			local detectedgame = 'Phantom Forces'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 		end
 	
@@ -180,6 +190,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		if gameid == 920587237 then
 			local detectedgame = 'Adopt Me'
 			displaygame.Text = "GAME DETECTED >> "..detectedgame
+      wait(1)
 			loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
 		end
 		
