@@ -209,7 +209,7 @@ AdoptMe.TextWrapped = true
 
 -- Scripts:
 
-local function AAYBJ_fake_script() -- CraezHubFrame.mainscript 
+local function RUIMW_fake_script() -- CraezHubFrame.mainscript 
 	local script = Instance.new('Script', CraezHubFrame)
 
 	HackFrame = script.Parent
@@ -262,7 +262,7 @@ local function AAYBJ_fake_script() -- CraezHubFrame.mainscript
 	
 		BringHeads.Name = "Bring Heads"
 		BringHeads.Parent = LazFrame
-		BringHeads.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+		BringHeads.BackgroundColor3 = Color3.fromRGB(21, 84, 74)
 		BringHeads.Position = UDim2.new(0.0667736381, 0, 0.614693165, 0)
 		BringHeads.Size = UDim2.new(0, 75, 0, 65)
 		BringHeads.Font = Enum.Font.RobotoCondensed
@@ -275,7 +275,7 @@ local function AAYBJ_fake_script() -- CraezHubFrame.mainscript
 	
 		ZombieESP.Name = "Zombie ESP"
 		ZombieESP.Parent = LazFrame
-		ZombieESP.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+		ZombieESP.BackgroundColor3 = Color3.fromRGB(21, 84, 74)
 		ZombieESP.Position = UDim2.new(0.0667736307, 0, 0.207248405, 0)
 		ZombieESP.Size = UDim2.new(0, 75, 0, 69)
 		ZombieESP.Font = Enum.Font.RobotoCondensed
@@ -287,7 +287,7 @@ local function AAYBJ_fake_script() -- CraezHubFrame.mainscript
 	
 		OPGun.Name = "OP Gun"
 		OPGun.Parent = LazFrame
-		OPGun.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+		OPGun.BackgroundColor3 = Color3.fromRGB(21, 84, 74)
 		OPGun.Position = UDim2.new(0.537927508, 0, 0.207248405, 0)
 		OPGun.Size = UDim2.new(0, 75, 0, 69)
 		OPGun.Font = Enum.Font.RobotoCondensed
@@ -299,7 +299,7 @@ local function AAYBJ_fake_script() -- CraezHubFrame.mainscript
 	
 		Fly.Name = "Fly"
 		Fly.Parent = LazFrame
-		Fly.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
+		Fly.BackgroundColor3 = Color3.fromRGB(21, 84, 74)
 		Fly.Position = UDim2.new(0.537927508, 0, 0.609316885, 0)
 		Fly.Size = UDim2.new(0, 75, 0, 66)
 		Fly.Font = Enum.Font.RobotoCondensed
@@ -614,4 +614,4 @@ local function AAYBJ_fake_script() -- CraezHubFrame.mainscript
 	
 	
 end
-coroutine.wrap(AAYBJ_fake_script)()
+coroutine.wrap(RUIMW_fake_script)()
