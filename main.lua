@@ -23,7 +23,7 @@ local AdoptMe = Instance.new("TextButton")
 --Properties:
 
 CraezHub.Name = "CraezHub"
-CraezHub.Parent = game.StarterGui
+CraezHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 CraezHubFrame.Name = "CraezHubFrame"
 CraezHubFrame.Parent = CraezHub
@@ -211,7 +211,7 @@ AdoptMe.TextWrapped = true
 local function FQAIV_fake_script() -- CraezHubFrame.mainscript 
 	local script = Instance.new('Script', CraezHubFrame)
   print("Script is running and ready for input")
-	local gamebuttons = game.StarterGui.CraezHub.CraezHubFrame
+	local gamebuttons = game.Players.LocalPlayer:WaitForChild("PlayerGui").CraezHub
 	-- Project Lazarus
 	gamebuttons.ProjectLazarus.MouseButton1Down:Connect(function()
 		print("Starting script for Project Lazarus")
