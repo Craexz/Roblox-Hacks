@@ -7,13 +7,18 @@ local CraezHub = Instance.new("ScreenGui")
 local CraezHubFrame = Instance.new("Frame")
 local Bottombar = Instance.new("TextButton")
 local Title = Instance.new("TextLabel")
-local Loadingbar = Instance.new("TextButton")
 local Topbar = Instance.new("TextButton")
 local BigPaintball = Instance.new("TextButton")
 local ProjectLazarus = Instance.new("TextButton")
 local MyRestaraunt = Instance.new("TextButton")
 local PrisonLife = Instance.new("TextButton")
 local Arsenal = Instance.new("TextButton")
+local WeightLiftingSimulator2 = Instance.new("TextButton")
+local SharkBite = Instance.new("TextButton")
+local Jailbreak = Instance.new("TextButton")
+local TowerOfHell = Instance.new("TextButton")
+local PhantomForces = Instance.new("TextButton")
+local AdoptMe = Instance.new("TextButton")
 
 --Properties:
 
@@ -51,19 +56,6 @@ Title.TextColor3 = Color3.fromRGB(0, 0, 0)
 Title.TextScaled = true
 Title.TextSize = 17.000
 Title.TextWrapped = true
-
-Loadingbar.Name = "Loading bar"
-Loadingbar.Parent = CraezHubFrame
-Loadingbar.BackgroundColor3 = Color3.fromRGB(25, 20, 31)
-Loadingbar.BorderColor3 = Color3.fromRGB(53, 53, 53)
-Loadingbar.Position = UDim2.new(0.384349018, 0, 0.701109052, 0)
-Loadingbar.Size = UDim2.new(0, 100, 0, 32)
-Loadingbar.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
-Loadingbar.Font = Enum.Font.Oswald
-Loadingbar.Text = "Loading"
-Loadingbar.TextColor3 = Color3.fromRGB(156, 0, 2)
-Loadingbar.TextSize = 23.000
-Loadingbar.TextWrapped = true
 
 Topbar.Name = "Top bar"
 Topbar.Parent = CraezHubFrame
@@ -128,7 +120,7 @@ PrisonLife.TextWrapped = true
 Arsenal.Name = "Arsenal"
 Arsenal.Parent = CraezHubFrame
 Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Arsenal.Position = UDim2.new(0.782974184, 0, 0.561492324, 0)
+Arsenal.Position = UDim2.new(0.780685842, 0, 0.557616353, 0)
 Arsenal.Size = UDim2.new(0, 69, 0, 30)
 Arsenal.Font = Enum.Font.SourceSans
 Arsenal.Text = "Arsenal"
@@ -136,88 +128,157 @@ Arsenal.TextColor3 = Color3.fromRGB(0, 0, 0)
 Arsenal.TextSize = 19.000
 Arsenal.TextWrapped = true
 
+WeightLiftingSimulator2.Name = "WeightLiftingSimulator2"
+WeightLiftingSimulator2.Parent = CraezHubFrame
+WeightLiftingSimulator2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WeightLiftingSimulator2.BorderSizePixel = 0
+WeightLiftingSimulator2.Position = UDim2.new(0.551852882, 0, 0.557616353, 0)
+WeightLiftingSimulator2.Size = UDim2.new(0, 69, 0, 30)
+WeightLiftingSimulator2.Font = Enum.Font.SourceSans
+WeightLiftingSimulator2.Text = "Weight Lifting Simulator II"
+WeightLiftingSimulator2.TextColor3 = Color3.fromRGB(0, 0, 0)
+WeightLiftingSimulator2.TextScaled = true
+WeightLiftingSimulator2.TextSize = 14.000
+WeightLiftingSimulator2.TextWrapped = true
+
+SharkBite.Name = "SharkBite"
+SharkBite.Parent = CraezHubFrame
+SharkBite.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SharkBite.BorderSizePixel = 0
+SharkBite.Position = UDim2.new(0.284118354, 0, 0.557616353, 0)
+SharkBite.Size = UDim2.new(0, 69, 0, 30)
+SharkBite.Font = Enum.Font.SourceSans
+SharkBite.Text = "Sharkbite"
+SharkBite.TextColor3 = Color3.fromRGB(0, 0, 0)
+SharkBite.TextScaled = true
+SharkBite.TextSize = 14.000
+SharkBite.TextWrapped = true
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = CraezHubFrame
+Jailbreak.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.BorderSizePixel = 0
+Jailbreak.Position = UDim2.new(0.0529970452, 0, 0.557616353, 0)
+Jailbreak.Size = UDim2.new(0, 69, 0, 30)
+Jailbreak.Font = Enum.Font.SourceSans
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jailbreak.TextScaled = true
+Jailbreak.TextSize = 14.000
+Jailbreak.TextWrapped = true
+
+TowerOfHell.Name = "TowerOfHell"
+TowerOfHell.Parent = CraezHubFrame
+TowerOfHell.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TowerOfHell.BorderSizePixel = 0
+TowerOfHell.Position = UDim2.new(0.284118354, 0, 0.751414776, 0)
+TowerOfHell.Size = UDim2.new(0, 69, 0, 30)
+TowerOfHell.Font = Enum.Font.SourceSans
+TowerOfHell.Text = "Tower Of Hell"
+TowerOfHell.TextColor3 = Color3.fromRGB(0, 0, 0)
+TowerOfHell.TextScaled = true
+TowerOfHell.TextSize = 14.000
+TowerOfHell.TextWrapped = true
+
+PhantomForces.Name = "PhantomForces"
+PhantomForces.Parent = CraezHubFrame
+PhantomForces.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PhantomForces.BorderSizePixel = 0
+PhantomForces.Position = UDim2.new(0.0529970452, 0, 0.755290747, 0)
+PhantomForces.Size = UDim2.new(0, 69, 0, 30)
+PhantomForces.Font = Enum.Font.SourceSans
+PhantomForces.Text = "Phantom Forces"
+PhantomForces.TextColor3 = Color3.fromRGB(0, 0, 0)
+PhantomForces.TextScaled = true
+PhantomForces.TextSize = 14.000
+PhantomForces.TextWrapped = true
+
+AdoptMe.Name = "AdoptMe"
+AdoptMe.Parent = CraezHubFrame
+AdoptMe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AdoptMe.BorderSizePixel = 0
+AdoptMe.Position = UDim2.new(0.551852882, 0, 0.751414776, 0)
+AdoptMe.Size = UDim2.new(0, 69, 0, 30)
+AdoptMe.Font = Enum.Font.SourceSans
+AdoptMe.Text = "Adopt Me"
+AdoptMe.TextColor3 = Color3.fromRGB(0, 0, 0)
+AdoptMe.TextScaled = true
+AdoptMe.TextSize = 14.000
+AdoptMe.TextWrapped = true
+
 -- Scripts:
 
-local function DVSPDX_fake_script() -- Loadingbar.Script 
-	local script = Instance.new('Script', Loadingbar)
+local function FQAIV_fake_script() -- CraezHubFrame.mainscript 
+	local script = Instance.new('Script', CraezHubFrame)
 
-	local percent = 0
-	while percent < 100 do
-		percent = percent+1
-		script.Parent.Text = 'Loading: '..percent
-		wait(.005)
-	end
+	local gamebuttons = game.StarterGui.CraezHub.CraezHubFrame
+	-- Project Lazarus
+	gamebuttons.ProjectLazarus.MouseButton1Down:Connect(function()
+		print("Starting script for Project Lazarus")
+		loadstring(game:HttpGet("https://pastebin.com/raw/H64HYzH0"))();
+	end)
 	
-	script.Parent.Visible = false
-	game.StarterGui.CraezHub.CraezHubFrame.ProjectLazarus.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.BigPaintball.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.MyRestaraunt.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.PrisonLife.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.Arsenal.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.WeightLiftingSimulator2.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.SharkBite.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.Jailbreak.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.TowerOfHell.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.PhantomForces.Visible = true
-	game.StarterGui.CraezHub.CraezHubFrame.AdoptMe.Visible = true
+	-- Big Paintball
+	gamebuttons.BigPaintball.MouseButton1Down:Connect(function()
+		print("Starting script for Big Paintball")
+		loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
+	end)
 	
-	if percent == 100 then
-		-- Project Lazarus
-		game.StarterGui.CraezHub.CraezHubFrame.ProjectLazarus.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/H64HYzH0"))();
-		end)
+	-- My Restaraunt
+	gamebuttons.MyRestaraunt.MouseButton1Down:Connect(function()
+		print("Starting script for My Restaraunt")
+		loadstring(game:HttpGet("https://pastebin.com/raw/Csr2LzA3"))();
+	end)
 	
-		-- Big Paintball
-		game.StarterGui.CraezHub.CraezHubFrame.BigPaintball.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/GtudyLtE"))();
-		end)
+	-- Prison Life
+	gamebuttons.PrisonLife.MouseButton1Down:Connect(function()
+		print("Starting script for Prison Life")
+		loadstring(game:HttpGet("https://pastebin.com/raw/PR79FuHb"))();
+	end)
 	
-		-- My Restaraunt
-		game.StarterGui.CraezHub.CraezHubFrame.MyRestaraunt.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/Csr2LzA3"))();
-		end)
+	-- Arsenal
+	gamebuttons.Arsenal.MouseButton1Down:Connect(function()
+		print("Starting script for Arsenal")
+		loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))();
+	end)
 	
-		-- Prison Life
-		game.StarterGui.CraezHub.CraezHubFrame.PrisonLife.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/PR79FuHb"))();
-		end)
+	-- Weight Lifting Simulator II
+	gamebuttons.WeightLiftingSimulator2.MouseButton1Down:Connect(function()
+		print("Starting script for Weight Lifting Simulator 2")
+		loadstring(game:HttpGet("https://pastebin.com/raw/r4pLKeK8"))()
+	end)
 	
-		-- Arsenal
-		game.StarterGui.CraezHub.CraezHubFrame.Arsenal.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet(("https://pastebin.com/raw/yCrBkPaY"), true))();
-		end)
+	-- Sharkbite
+	gamebuttons.SharkBite.MouseButton1Down:Connect(function()
+		print("Starting script for Sharkbite")
+		loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
+	end)
 	
-		-- Weight Lifting Simulator II
-		game.StarterGui.CraezHub.CraezHubFrame.WeightLiftingSimulator2.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/r4pLKeK8"))()
-		end)
+	-- Jailbreak
+	gamebuttons.Jailbreak.MouseButton1Down:Connect(function()
+		print("Starting script for Jailbreak")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal"))()
+	end)
 	
-		-- Sharkbite
-		game.StarterGui.CraezHub.CraezHubFrame.SharkBite.MouseButton1Click:Connect(function()
-			loadstring(game:GetObjects("rbxassetid://3623753581")[1].Source)()
-		end)
+	-- Tower Of Hell
+	gamebuttons.TowerOfHell.MouseButton1Down:Connect(function()
+		print("Starting script for Tower Of Hell")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+	end)
 	
-		-- Jailbreak
-		game.StarterGui.CraezHub.CraezHubFrame.Jailbreak.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal"))()
-		end)
+	-- Phantom Forces
+	gamebuttons.PhantomForces.MouseButton1Down:Connect(function()
+		print("Starting script for Phantom Forces")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+	end)
 	
-		-- Tower Of Hell
-		game.StarterGui.CraezHub.CraezHubFrame.TowerOfHell.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
-		end)
+	-- Adopt Me
+	gamebuttons.AdoptMe.MouseButton1Down:Connect(function()
+		print("Starting script for Adopt Me")
+		loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
+	end)
 	
-		-- Phantom Forces
-		game.StarterGui.CraezHub.CraezHubFrame.PhantomForces.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
-		end)
-	
-		-- Adopt Me
-		game.StarterGui.CraezHub.CraezHubFrame.AdoptMe.MouseButton1Click:Connect(function()
-			loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
-		end)
-	end
 	
 end
-coroutine.wrap(DVSPDX_fake_script)()
+coroutine.wrap(FQAIV_fake_script)()
