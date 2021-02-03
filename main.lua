@@ -103,6 +103,7 @@ local function UIACG_fake_script() -- Loadingbar.Script
 		script.Parent.Visible = false
 		local displaygame = game.StarterGui.CraezHub.CraezHubFrame.gamedetection
 		local gameid = game.PlaceId
+    print(gameid)
 		detectedgame = ""
 		-- Project Lazarus
 		if gameid == 443406476 then
