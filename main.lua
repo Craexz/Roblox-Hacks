@@ -235,7 +235,6 @@ local function RUIMW_fake_script() -- CraezHubFrame.mainscript
 		LazHacks.Name = "LazHacks"
 		LazHacks.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 		
-		--LazFrame.ZIndex = 9
 		LazFrame.Draggable = true
 		LazFrame.Active = true
 		LazFrame.Selectable = true
