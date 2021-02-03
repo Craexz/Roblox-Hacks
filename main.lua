@@ -135,6 +135,7 @@ WeightLiftingSimulator2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 WeightLiftingSimulator2.BorderSizePixel = 0
 WeightLiftingSimulator2.Position = UDim2.new(0.551852882, 0, 0.557616353, 0)
 WeightLiftingSimulator2.Size = UDim2.new(0, 69, 0, 30)
+WeightLiftingSimulator2.ZIndex = 2
 WeightLiftingSimulator2.Font = Enum.Font.SourceSans
 WeightLiftingSimulator2.Text = "Weight Lifting Simulator II"
 WeightLiftingSimulator2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -209,7 +210,7 @@ AdoptMe.TextWrapped = true
 
 -- Scripts:
 
-local function LMMHJGE_fake_script() -- CraezHubFrame.mainscript 
+local function BSBNCX_fake_script() -- CraezHubFrame.mainscript 
 	local script = Instance.new('Script', CraezHubFrame)
 
 	HackFrame = script.Parent
@@ -898,7 +899,7 @@ local function LMMHJGE_fake_script() -- CraezHubFrame.mainscript
 		inmate.TextColor3 = Color3.new(1, 1, 1)
 		inmate.TextSize = 14
 		inmate.MouseButton1Click:connect(function()
-			Workspace.Remote.TeamEvent:FireServer("Bright orange")
+			workspace.Remote.TeamEvent:FireServer("Bright orange")
 		end)
 	
 		police.Name = "police"
@@ -912,7 +913,7 @@ local function LMMHJGE_fake_script() -- CraezHubFrame.mainscript
 		police.TextColor3 = Color3.new(1, 1, 1)
 		police.TextSize = 14
 		police.MouseButton1Click:connect(function()
-			Workspace.Remote.TeamEvent:FireServer("Bright blue")
+			workspace.Remote.TeamEvent:FireServer("Bright blue")
 		end)
 	
 		crime.Name = "crime"
@@ -1126,7 +1127,7 @@ local function LMMHJGE_fake_script() -- CraezHubFrame.mainscript
 			game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP) 
 	
 			wait(0.1)
-			Workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+			workspace.Remote.TeamEvent:FireServer("Medium stone grey")
 	
 			local A_1 = 
 				{
@@ -1841,7 +1842,481 @@ local function LMMHJGE_fake_script() -- CraezHubFrame.mainscript
 	-- Weight Lifting Simulator II
 	gamebuttons.WeightLiftingSimulator2.MouseButton1Down:Connect(function()
 		print("Starting script for Weight Lifting Simulator 2")
-		loadstring(game:HttpGet("https://pastebin.com/raw/r4pLKeK8"))()
+		local WeightliftingSimGui = Instance.new("ScreenGui")
+		local Window = Instance.new("Frame")
+		local TopBar = Instance.new("Frame")
+		local WindowName = Instance.new("TextLabel")
+		local WindowClose = Instance.new("TextButton")
+		local IconArea = Instance.new("Frame")
+		local Button = Instance.new("TextButton")
+		local Button_2 = Instance.new("TextButton")
+		local Button_3 = Instance.new("TextButton")
+		local Button_4 = Instance.new("TextButton")
+		local Button_5 = Instance.new("TextButton")
+		local Button_6 = Instance.new("TextButton")
+		local Button_7 = Instance.new("TextButton")
+		local Button_8 = Instance.new("TextButton")
+		local Button_9 = Instance.new("TextButton")
+		local Button_10 = Instance.new("TextButton")
+		local Button_11 = Instance.new("TextButton")
+		local Button_12 = Instance.new("TextButton")
+		local Button_13 = Instance.new("TextButton")
+		local Button_14 = Instance.new("TextButton")
+	
+		WeightliftingSimGui.Name = "WeightliftingSimGui"
+		WeightliftingSimGui.Parent = game.CoreGui
+		WeightliftingSimGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+		Window.Name = "Window"
+		Window.Parent = WeightliftingSimGui
+		Window.Active = true
+		Window.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+		Window.BackgroundTransparency = 0.500
+		Window.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Window.BorderSizePixel = 0
+		Window.Draggable = true
+		Window.Position = UDim2.new(0.134636894, 0, 0.0940214023, 0)
+		Window.Size = UDim2.new(0, 843, 0, 471)
+	
+		TopBar.Name = "TopBar"
+		TopBar.Parent = Window
+		TopBar.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+		TopBar.BackgroundTransparency = 0.500
+		TopBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		TopBar.BorderSizePixel = 0
+		TopBar.Draggable = true
+		TopBar.Position = UDim2.new(0, 0, -0.00100000144, 0)
+		TopBar.Size = UDim2.new(0, 843, 0, 40)
+	
+		WindowName.Name = "WindowName"
+		WindowName.Parent = TopBar
+		WindowName.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		WindowName.BackgroundTransparency = 1.000
+		WindowName.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		WindowName.BorderSizePixel = 0
+		WindowName.Position = UDim2.new(0.012844244, 0, 0.0334999077, 0)
+		WindowName.Size = UDim2.new(0, 770, 0, 39)
+		WindowName.Font = Enum.Font.SciFi
+		WindowName.Text = "Weight Lifting Simulator 2 Breaker"
+		WindowName.TextColor3 = Color3.fromRGB(255, 255, 255)
+		WindowName.TextSize = 30.000
+		WindowName.TextXAlignment = Enum.TextXAlignment.Left
+	
+		WindowClose.Name = "WindowClose"
+		WindowClose.Parent = TopBar
+		WindowClose.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+		WindowClose.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		WindowClose.BorderSizePixel = 0
+		WindowClose.Position = UDim2.new(0.955180526, 0, 0.140356436, 0)
+		WindowClose.Size = UDim2.new(0, 25, 0, 29)
+		WindowClose.Font = Enum.Font.Highway
+		WindowClose.Text = "X"
+		WindowClose.TextColor3 = Color3.fromRGB(255, 255, 255)
+		WindowClose.TextSize = 30.000
+		WindowClose.TextWrapped = true
+	
+		IconArea.Name = "IconArea"
+		IconArea.Parent = TopBar
+		IconArea.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		IconArea.BackgroundTransparency = 1.000
+		IconArea.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		IconArea.BorderSizePixel = 0
+		IconArea.Size = UDim2.new(0, 40, 0, 40)
+	
+		Button.Name = "Button"
+		Button.Parent = Window
+		Button.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button.BackgroundTransparency = 0.500
+		Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button.BorderSizePixel = 0
+		Button.Position = UDim2.new(0.0128442505, 0, 0.103110343, 0)
+		Button.Size = UDim2.new(0, 400, 0, 50)
+		Button.Font = Enum.Font.SciFi
+		Button.Text = "Infinite Strength"
+		Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button.TextSize = 30.000
+		Button.TextWrapped = true
+	
+		Button_2.Name = "Button"
+		Button_2.Parent = Window
+		Button_2.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_2.BackgroundTransparency = 0.500
+		Button_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_2.BorderSizePixel = 0
+		Button_2.Position = UDim2.new(0.0128442505, 0, 0.222430959, 0)
+		Button_2.Size = UDim2.new(0, 400, 0, 50)
+		Button_2.Font = Enum.Font.SciFi
+		Button_2.Text = "+1 Buff"
+		Button_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_2.TextSize = 30.000
+		Button_2.TextWrapped = true
+	
+		Button_3.Name = "Button"
+		Button_3.Parent = Window
+		Button_3.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_3.BackgroundTransparency = 0.500
+		Button_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_3.BorderSizePixel = 0
+		Button_3.Position = UDim2.new(0.0128442505, 0, 0.343874663, 0)
+		Button_3.Size = UDim2.new(0, 400, 0, 50)
+		Button_3.Font = Enum.Font.SciFi
+		Button_3.Text = "+10 Speed"
+		Button_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_3.TextSize = 30.000
+		Button_3.TextWrapped = true
+	
+		Button_4.Name = "Button"
+		Button_4.Parent = Window
+		Button_4.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_4.BackgroundTransparency = 0.500
+		Button_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_4.BorderSizePixel = 0
+		Button_4.Position = UDim2.new(0.0128442505, 0, 0.468921453, 0)
+		Button_4.Size = UDim2.new(0, 400, 0, 50)
+		Button_4.Font = Enum.Font.SciFi
+		Button_4.Text = "+1M Strength"
+		Button_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_4.TextSize = 30.000
+		Button_4.TextWrapped = true
+	
+		Button_5.Name = "Button"
+		Button_5.Parent = Window
+		Button_5.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_5.BackgroundTransparency = 0.500
+		Button_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_5.BorderSizePixel = 0
+		Button_5.Position = UDim2.new(0.510855258, 0, 0.101836488, 0)
+		Button_5.Size = UDim2.new(0, 400, 0, 50)
+		Button_5.Font = Enum.Font.SciFi
+		Button_5.Text = "Kill Others (Infinite Strength)"
+		Button_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_5.TextSize = 30.000
+		Button_5.TextWrapped = true
+	
+		Button_6.Name = "Button"
+		Button_6.Parent = Window
+		Button_6.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_6.BackgroundTransparency = 0.500
+		Button_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_6.BorderSizePixel = 0
+		Button_6.Position = UDim2.new(0.0126346536, 0, 0.708836496, 0)
+		Button_6.Size = UDim2.new(0, 400, 0, 50)
+		Button_6.Font = Enum.Font.SciFi
+		Button_6.Text = "+1 Height"
+		Button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_6.TextSize = 30.000
+		Button_6.TextWrapped = true
+	
+		Button_7.Name = "Button"
+		Button_7.Parent = Window
+		Button_7.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_7.BackgroundTransparency = 0.500
+		Button_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_7.BorderSizePixel = 0
+		Button_7.Position = UDim2.new(0.511019111, 0, 0.58803606, 0)
+		Button_7.Size = UDim2.new(0, 400, 0, 50)
+		Button_7.Font = Enum.Font.SciFi
+		Button_7.Text = "-1T Strength"
+		Button_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_7.TextSize = 30.000
+		Button_7.TextWrapped = true
+	
+		Button_8.Name = "Button"
+		Button_8.Parent = Window
+		Button_8.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_8.BackgroundTransparency = 0.500
+		Button_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_8.BorderSizePixel = 0
+		Button_8.Position = UDim2.new(0.51122874, 0, 0.343874663, 0)
+		Button_8.Size = UDim2.new(0, 400, 0, 50)
+		Button_8.Font = Enum.Font.SciFi
+		Button_8.Text = "-10 Speed"
+		Button_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_8.TextSize = 30.000
+		Button_8.TextWrapped = true
+	
+		Button_9.Name = "Button"
+		Button_9.Parent = Window
+		Button_9.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_9.BackgroundTransparency = 0.500
+		Button_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_9.BorderSizePixel = 0
+		Button_9.Position = UDim2.new(0.511019111, 0, 0.708836496, 0)
+		Button_9.Size = UDim2.new(0, 400, 0, 50)
+		Button_9.Font = Enum.Font.SciFi
+		Button_9.Text = "-1 Height"
+		Button_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_9.TextSize = 30.000
+		Button_9.TextWrapped = true
+	
+		Button_10.Name = "Button"
+		Button_10.Parent = Window
+		Button_10.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_10.BackgroundTransparency = 0.500
+		Button_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_10.BorderSizePixel = 0
+		Button_10.Position = UDim2.new(0.51122874, 0, 0.468921453, 0)
+		Button_10.Size = UDim2.new(0, 400, 0, 50)
+		Button_10.Font = Enum.Font.SciFi
+		Button_10.Text = "-IM Strength"
+		Button_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_10.TextSize = 30.000
+		Button_10.TextWrapped = true
+	
+		Button_11.Name = "Button"
+		Button_11.Parent = Window
+		Button_11.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_11.BackgroundTransparency = 0.500
+		Button_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_11.BorderSizePixel = 0
+		Button_11.Position = UDim2.new(0.51122874, 0, 0.222430959, 0)
+		Button_11.Size = UDim2.new(0, 400, 0, 50)
+		Button_11.Font = Enum.Font.SciFi
+		Button_11.Text = "-1 Buff"
+		Button_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_11.TextSize = 30.000
+		Button_11.TextWrapped = true
+	
+		Button_12.Name = "Button"
+		Button_12.Parent = Window
+		Button_12.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_12.BackgroundTransparency = 0.500
+		Button_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_12.BorderSizePixel = 0
+		Button_12.Position = UDim2.new(0.511019111, 0, 0.836225033, 0)
+		Button_12.Size = UDim2.new(0, 400, 0, 50)
+		Button_12.Font = Enum.Font.SciFi
+		Button_12.Text = "Hide Other Players"
+		Button_12.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_12.TextSize = 30.000
+		Button_12.TextWrapped = true
+	
+		Button_13.Name = "Button"
+		Button_13.Parent = Window
+		Button_13.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_13.BackgroundTransparency = 0.500
+		Button_13.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_13.BorderSizePixel = 0
+		Button_13.Position = UDim2.new(0.0116122365, 0, 0.836225033, 0)
+		Button_13.Size = UDim2.new(0, 400, 0, 50)
+		Button_13.Font = Enum.Font.SciFi
+		Button_13.Text = "Camp in The Sky"
+		Button_13.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_13.TextSize = 30.000
+		Button_13.TextWrapped = true
+	
+		Button_14.Name = "Button"
+		Button_14.Parent = Window
+		Button_14.BackgroundColor3 = Color3.fromRGB(93, 0, 159)
+		Button_14.BackgroundTransparency = 0.500
+		Button_14.BorderColor3 = Color3.fromRGB(0, 0, 0)
+		Button_14.BorderSizePixel = 0
+		Button_14.Position = UDim2.new(0.011821866, 0, 0.587186813, 0)
+		Button_14.Size = UDim2.new(0, 400, 0, 50)
+		Button_14.Font = Enum.Font.SciFi
+		Button_14.Text = "+1T Strength"
+		Button_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Button_14.TextSize = 30.000
+		Button_14.TextWrapped = true
+	
+		local function ORDJZFG_fake_script() -- WindowClose.Btn 
+			local script = Instance.new('LocalScript', WindowClose)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				script.Parent.Parent.Parent:Destroy()
+			end)
+		end
+		coroutine.wrap(ORDJZFG_fake_script)()
+		local function FABFDB_fake_script() -- Button.ButtonController 
+			local script = Instance.new('LocalScript', Button)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = math.huge;
+				local Durability = math.huge;
+				local Walkspeed = 0;
+				local Buffness = 0;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(FABFDB_fake_script)()
+		local function WZNULZ_fake_script() -- Button_2.ButtonController 
+			local script = Instance.new('LocalScript', Button_2)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = 0;
+				local Durability = 0;
+				local Walkspeed = 0;
+				local Buffness = 1;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(WZNULZ_fake_script)()
+		local function FMZPBI_fake_script() -- Button_3.ButtonController 
+			local script = Instance.new('LocalScript', Button_3)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = 0;
+				local Durability = 0;
+				local Walkspeed = 10;
+				local Buffness = 0;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(FMZPBI_fake_script)()
+		local function QLVVQ_fake_script() -- Button_4.ButtonController 
+			local script = Instance.new('LocalScript', Button_4)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = 1000000;
+				local Durability = 1000000;
+				local Walkspeed = 0;
+				local Buffness = 0;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(QLVVQ_fake_script)()
+		local function WBRQ_fake_script() -- Button_5.ButtonController 
+			local script = Instance.new('LocalScript', Button_5)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				for _,PlayerPart in pairs(game:GetService("Players"):GetChildren()) do
+					if PlayerPart.name ~= game:GetService("Players").LocalPlayer.Name then
+						for _,Body in pairs(PlayerPart.Character:GetChildren()) do
+							if Body:IsA("BasePart") then
+								Body.CanCollide = false
+							end
+						end
+						PlayerPart.Character.HumanoidRootPart.Anchored = true
+						PlayerPart.Character.HumanoidRootPart.CanCollide = false
+						PlayerPart.Character.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(10, 0, 10)
+					end
+				end
+			end)
+		end
+		coroutine.wrap(WBRQ_fake_script)()
+		local function ZFDWI_fake_script() -- Button_6.ButtonController 
+			local script = Instance.new('LocalScript', Button_6)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = 0;
+				local Durability = 0;
+				local Walkspeed = 0;
+				local Buffness = 0;
+				local Height = 1;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(ZFDWI_fake_script)()
+		local function MYMZO_fake_script() -- Button_7.ButtonController 
+			local script = Instance.new('LocalScript', Button_7)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = -1000000000000;
+				local Durability = -1000000000000;
+				local Walkspeed = 0;
+				local Buffness = 0;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(MYMZO_fake_script)()
+		local function OZRMG_fake_script() -- Button_8.ButtonController 
+			local script = Instance.new('LocalScript', Button_8)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = 0;
+				local Durability = 0;
+				local Walkspeed = -10;
+				local Buffness = 0;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(OZRMG_fake_script)()
+		local function LMMP_fake_script() -- Button_9.ButtonController 
+			local script = Instance.new('LocalScript', Button_9)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = 0;
+				local Durability = 0;
+				local Walkspeed = 0;
+				local Buffness = 0;
+				local Height = -1;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(LMMP_fake_script)()
+		local function LLAYBZ_fake_script() -- Button_10.ButtonController 
+			local script = Instance.new('LocalScript', Button_10)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = -1000000;
+				local Durability = -1000000;
+				local Walkspeed = 0;
+				local Buffness = 0;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(LLAYBZ_fake_script)()
+		local function VQBVJ_fake_script() -- Button_11.ButtonController 
+			local script = Instance.new('LocalScript', Button_11)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = 0;
+				local Durability = 0;
+				local Walkspeed = 0;
+				local Buffness = -1;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(VQBVJ_fake_script)()
+		local function ADIWAF_fake_script() -- Button_12.ButtonController 
+			local script = Instance.new('LocalScript', Button_12)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				for _,PlayerPart in pairs(game:GetService("Players"):GetChildren()) do
+					if PlayerPart.Name ~= game:GetService("Players").LocalPlayer.Name then
+						PlayerPart.Character.HumanoidRootPart.Anchored = true
+						PlayerPart.Character.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0, math.huge, 0)
+					end
+				end
+			end)
+		end
+		coroutine.wrap(ADIWAF_fake_script)()
+		local function HLIJ_fake_script() -- Button_13.ButtonController 
+			local script = Instance.new('LocalScript', Button_13)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Hideout = Instance.new("Part")
+				Hideout.Anchored = true
+				Hideout.CastShadow = false
+				Hideout.Size = Vector3.new(20, 0, 20)
+				Hideout.Position = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0, 250, 0)
+				Hideout.Parent = workspace
+	
+				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame + Vector3.new(0, 260, 0)
+			end)
+		end
+		coroutine.wrap(HLIJ_fake_script)()
+		local function HHPWKFN_fake_script() -- Button_14.ButtonController 
+			local script = Instance.new('LocalScript', Button_14)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				local Strength = 1000000000000;
+				local Durability = 1000000000000;
+				local Walkspeed = 0;
+				local Buffness = 0;
+				local Height = 0;
+				game:GetService('ReplicatedStorage').updateStats:FireServer(true, Strength, Durability, Walkspeed, Buffness, Height)
+			end)
+		end
+		coroutine.wrap(HHPWKFN_fake_script)()
 	end)
 	
 	-- Sharkbite
@@ -1854,7 +2329,7 @@ local function LMMHJGE_fake_script() -- CraezHubFrame.mainscript
 	gamebuttons.Jailbreak.MouseButton1Down:Connect(function()
 		print("Starting script for Jailbreak")
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/master/Vynixius%20Jailbreak", true))()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/SonaorFree", true))()
 	end)
 	
 	-- Tower Of Hell
@@ -1866,16 +2341,28 @@ local function LMMHJGE_fake_script() -- CraezHubFrame.mainscript
 	-- Phantom Forces
 	gamebuttons.PhantomForces.MouseButton1Down:Connect(function()
 		print("Starting script for Phantom Forces")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
+		local old
+		old = hookfunction(game.HttpGetAsync, function(inst, url, state)
+			url = url:gsub('CriShoux', 'SiLeNSwOrD')
+			return old(inst, url, state)
+		end)
+	
+		local old2
+		old2 = hookfunction(game.HttpGet, function(inst, url, state)
+			url = url:gsub('CriShoux', 'SiLeNSwOrD')
+			return old2(inst, url, state)
+		end)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SiLeNSwOrD/OwlHub/master/OwlHub.txt"))()
+		
 	end)
 	
 	-- Adopt Me
 	gamebuttons.AdoptMe.MouseButton1Down:Connect(function()
 		print("Starting script for Adopt Me")
-		loadstring(game:HttpGet("https://pastebin.com/raw/Z3iAXASr", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Psychiatrist-Colman/Scripts/master/AdoptMeMain.lua",true))()
 	end)
 	
 	
 	
 end
-coroutine.wrap(LMMHJGE_fake_script)()
+coroutine.wrap(BSBNCX_fake_script)()
