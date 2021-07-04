@@ -258,32 +258,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 		TITLE.TextScaled = true
 		TITLE.TextSize = 14.000
 		TITLE.TextWrapped = true
-	
-		BringHeads.Name = "Bring Heads"
-		BringHeads.Parent = Frame
-		BringHeads.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
-		BringHeads.Position = UDim2.new(0.0667736381, 0, 0.614693165, 0)
-		BringHeads.Size = UDim2.new(0, 75, 0, 65)
-		BringHeads.Font = Enum.Font.RobotoCondensed
-		BringHeads.Text = "Bring Zombie Heads"
-		BringHeads.TextColor3 = Color3.fromRGB(0, 0, 0)
-		BringHeads.TextScaled = true
-		BringHeads.TextSize = 14.000
-		BringHeads.TextStrokeColor3 = Color3.fromRGB(22, 21, 21)
-		BringHeads.TextWrapped = true
-	
-		ZombieESP.Name = "Zombie ESP"
-		ZombieESP.Parent = Frame
-		ZombieESP.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
-		ZombieESP.Position = UDim2.new(0.0667736307, 0, 0.207248405, 0)
-		ZombieESP.Size = UDim2.new(0, 75, 0, 69)
-		ZombieESP.Font = Enum.Font.RobotoCondensed
-		ZombieESP.Text = "Zombie ESP"
-		ZombieESP.TextColor3 = Color3.fromRGB(0, 0, 0)
-		ZombieESP.TextSize = 26.000
-		ZombieESP.TextStrokeColor3 = Color3.fromRGB(22, 21, 21)
-		ZombieESP.TextWrapped = true
-	
+
 		OPGun.Name = "OP Gun"
 		OPGun.Parent = Frame
 		OPGun.BackgroundColor3 = Color3.fromRGB(113, 113, 113)
@@ -323,33 +298,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 	
 		-- Scripts:
 	
-		local function PYIUE_fake_script() -- BringHeads.LocalScript 
-			local script = Instance.new('LocalScript', BringHeads)
 	
-			local mouse = game.Players.LocalPlayer:GetMouse()
-	
-			script.Parent.MouseButton1Down:connect(function()
-				script.Parent.Text = "Press G to bring heads"
-				local bringheads = true
-				if bringheads == true then
-					mouse.KeyDown:connect(function(key)
-						if key == "g" or key == "G" then
-							local zomb = workspace.Baddies:GetChildren()
-							for i=1,#zomb do
-								zomb[i].HeadBox.Transparency = 0
-								zomb[i].HeadBox.Material = "Neon"
-								zomb[i].HeadBox.CanCollide = false
-								zomb[i].HeadBox.Anchored = true
-								zomb[i].HeadBox.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position+Vector3.new(pos)
-							end
-						end
-					end)
-	
-				end
-	
-			end)
-		end
-		coroutine.wrap(PYIUE_fake_script)()
 
 		local function YZPPQPC_fake_script() -- Fly.LocalScript 
 			local script = Instance.new('LocalScript', Fly)
@@ -455,52 +404,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 			end)
 		end
 		coroutine.wrap(YZPPQPC_fake_script)()
-		local function PNEBNW_fake_script() -- ZombieESP.LocalScript 
-			local script = Instance.new('LocalScript', ZombieESP)
-	
-			script.Parent.MouseButton1Down:connect(function()
-	
-				if script.Parent.Text == 'ESP ON' then
-					script.Parent.Text = 'Already enabled'
-					wait(1)
-					script.Parent.Text = 'ESP ON'
-				end
-				script.Parent.Text = 'ESP ON'
-				function CreateESPPart(BodyPart,color)
-					local ESPPartparent = BodyPart
-					local Box = Instance.new("BoxHandleAdornment")
-					Box.Size = BodyPart.Size + Vector3.new(0.1, 0.1, 0.1)
-					Box.Name = "ESPPart"
-					Box.Adornee = ESPPartparent
-					Box.Color3 = color
-					Box.AlwaysOnTop = true
-					Box.ZIndex = 5
-					Box.Transparency = 0.8
-					Box.Parent = BodyPart
-				end
-	
-				local zombs = workspace.Baddies:getChildren()
-				for i=1,#zombs do
-					local bodypart = zombs[i]:getChildren()
-					for i=1,#bodypart do
-						if bodypart[i].ClassName == "Part" then
-							CreateESPPart(bodypart[i], Color3.fromRGB(0,255,0))
-						end
-					end
-				end
-	
-				workspace.Baddies.ChildAdded:Connect(function(zomb)
-					wait(1)
-					local bodypart = zomb:getChildren()
-					for i=1,#bodypart do
-						if bodypart[i].ClassName == "Part" then
-							CreateESPPart(bodypart[i], Color3.fromRGB(0,255,0))
-						end
-					end
-				end)
-			end)
-		end
-		coroutine.wrap(PNEBNW_fake_script)()
+		
 		local function CUFW_fake_script() -- OPGun.LocalScript 
 			local script = Instance.new('LocalScript', OPGun)
 	
