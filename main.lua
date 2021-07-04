@@ -350,8 +350,9 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 			end)
 		end
 		coroutine.wrap(PYIUE_fake_script)()
-		local function YZPPQPC_fake_script() -- BringHeads.LocalScript 
-			local script = Instance.new('LocalScript', BringHeads)
+
+		local function YZPPQPC_fake_script() -- Fly.LocalScript 
+			local script = Instance.new('LocalScript', Fly)
 	
 			script.Parent.MouseButton1Click:Connect(function()
 				local player = game.Players.LocalPlayer
