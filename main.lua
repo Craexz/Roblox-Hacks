@@ -1530,7 +1530,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 		TextLabel.Position = UDim2.new(0.0977189764, 0, 0.169863015, 0)
 		TextLabel.Size = UDim2.new(0, 322, 0, 19)
 		TextLabel.Font = Enum.Font.SourceSansBold
-		TextLabel.Text = "GUI Made By: Craexz"
+		TextLabel.Text = "GUI Made By: Craexz#0001"
 		TextLabel.TextColor3 = Color3.new(1, 1, 1)
 		TextLabel.TextSize = 14
 	
@@ -1540,7 +1540,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 		TextLabel_2.Position = UDim2.new(0.0977189764, 0, 0.221917808, 0)
 		TextLabel_2.Size = UDim2.new(0, 322, 0, 19)
 		TextLabel_2.Font = Enum.Font.SourceSansBold
-		TextLabel_2.Text = "Youtube: Spleaxz"
+		TextLabel_2.Text = "Youtube: Craexz"
 		TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
 		TextLabel_2.TextSize = 14
 	
@@ -1550,7 +1550,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 		TextLabel_3.Position = UDim2.new(0.105275653, 0, 0.273972601, 0)
 		TextLabel_3.Size = UDim2.new(0, 322, 0, 19)
 		TextLabel_3.Font = Enum.Font.SourceSansBold
-		TextLabel_3.Text = "Website: i dont have a website lol"
+		TextLabel_3.Text = "Discord Invite: https://discord.gg/KC5btyZukm"
 		TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
 		TextLabel_3.TextSize = 14
 	
@@ -1560,7 +1560,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 		TextLabel_4.Position = UDim2.new(0.0952000841, 0, 0.326027393, 0)
 		TextLabel_4.Size = UDim2.new(0, 322, 0, 19)
 		TextLabel_4.Font = Enum.Font.SourceSansBold
-		TextLabel_4.Text = "DM Me On Discord For Server Invite"
+		TextLabel_4.Text = "DM me on discord for game exploit suggestions"
 		TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
 		TextLabel_4.TextSize = 14
 	
@@ -1570,7 +1570,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 		TextLabel_5.Position = UDim2.new(0.105275653, 0, 0.479452044, 0)
 		TextLabel_5.Size = UDim2.new(0, 322, 0, 19)
 		TextLabel_5.Font = Enum.Font.SourceSansBold
-		TextLabel_5.Text = "Most Scripts Made By: Jake11Price"
+		TextLabel_5.Text = "Most Scripts Made By: Craexz#0001"
 		TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
 		TextLabel_5.TextSize = 14
 	
