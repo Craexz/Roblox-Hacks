@@ -2222,7 +2222,7 @@ local function BSBNCX_fake_script() -- CraezHubFrame.mainscript
 	-- Jailbreak
 	gamebuttons.Jailbreak.MouseButton1Down:Connect(function()
 		print("Starting script for Jailbreak")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/JailbreakAutoRob.lua"))()
 	end)
 	
 	-- Tower Of Hell
